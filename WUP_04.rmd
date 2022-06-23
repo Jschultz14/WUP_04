@@ -68,6 +68,14 @@ summary.aov(model1)
 
 Given that the p-value is well below 0.05 (0.000236), we can conclude that there is a significant difference between the categories of data.
 
+```{r}
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
+par(mar = c(3, 15.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+
+Based on the confidence intervals, we can clearly see that the high school and graduate levels are vastly different. We can see a similar difference between the LT high school and graduate degrees. It would appear the greatest differences are between high school degrees and graduate degrees. 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
