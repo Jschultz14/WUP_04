@@ -12,6 +12,8 @@ require(knitr)
 require(tidyverse)
 require(tigerstats)
 
+mydata<-read_csv(file = "GSScsv.csv")
+
 ```
 
 # Introduction
@@ -35,6 +37,15 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+basicCN <- ggplot(mydata,aes(x=DEGREE,y=WORDSUM))
+```
+```{r}
+basicCN + geom_boxplot()
+```
+
+Based on this plot, it seems that the graduate level degree shows the highest score in comparison to the others. This is shown by the fact that the median is just about as high as the Q3 for both the bachelor's and junior college degrees. The LT High School's median is the lowest showing a median that is lower than the regular high school level by a small margin.
 
 ### Numerical Descriptive Results
 
