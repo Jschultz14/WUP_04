@@ -79,3 +79,5 @@ Based on the confidence intervals, we can clearly see that the high school and g
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+After reviewing the graphical, numerical, and inferential results, it is clear that there is a significant difference in average score on the WORDSUM test between at least two levels of DEGREE. The graduate level shows the greatest scores on the WORDSUM test and those in the high school and LT high school levels show the worst scores. The greater one's degree, it would appear the better they begin to do on the WORDSUM test. 
